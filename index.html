@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <title>Plugin Test</title>
+    <style>
+        #table-container {
+            width: 600px;
+            padding: 10px;
+            margin-left: 50px;
+            height: 300px;
+        }
+
+        table { 
+            border-collapse:separate; 
+            table-layout: fixed;
+        }
+        
+    </style>
+</head>
+<body>
+    <h3>Table Plugin Test</h3>
+    <div id="table-container">
+        <table >
+            <thead>
+                <tr>
+                    <th>Column 1</th>
+                    <th>Co 2</th>
+                    <th>Colu 3</th>
+                    <th>Column 44</th>
+                    <th>Column 5</th>
+                    <th>Column 6</th>
+                    <th>Column 7</th>
+                    <th>Column 8</th>
+                    <th>Column 9</th>
+                    <th>Column 10</th>    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                    <td>Value 5</td>
+                    <td>Value 6</td>
+                    <td>Value 7</td>
+                    <td>Value 8</td>
+                    <td>Value 9</td>
+                    <td>Value 10</td>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                    <td>Value 5</td>
+                    <td>Value 6</td>
+                    <td>Value 7</td>
+                    <td>Value 8</td>
+                    <td>Value 9</td>
+                    <td>Value 10</td>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                    <td>Value 5</td>
+                    <td>Value 6</td>
+                    <td>Value 7</td>
+                    <td>Value 8</td>
+                    <td>Value 9</td>
+                    <td>Value 10</td>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                    <td>Value 5</td>
+                    <td>Value 6</td>
+                    <td>Value 7</td>
+                    <td>Value 8</td>
+                    <td>Value 9</td>
+                    <td>Value 10</td>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                    <td>Value 5</td>
+                    <td>Value 6</td>
+                    <td>Value 7</td>
+                    <td>Value 8</td>
+                    <td>Value 9</td>
+                    <td>Value 10</td>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                    <td>Value 5</td>
+                    <td>Value 6</td>
+                    <td>Value 7</td>
+                    <td>Value 8</td>
+                    <td>Value 9</td>
+                    <td>Value 10</td>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                    <td>Value 5</td>
+                    <td>Value 6</td>
+                    <td>Value 7</td>
+                    <td>Value 8</td>
+                    <td>Value 9</td>
+                    <td>Value 10</td>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                    <td>Value 5</td>
+                    <td>Value 6</td>
+                    <td>Value 7</td>
+                    <td>Value 8</td>
+                    <td>Value 9</td>
+                    <td>Value 10</td>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                    <td>Value 5</td>
+                    <td>Value 6</td>
+                    <td>Value 7</td>
+                    <td>Value 8</td>
+                    <td>Value 9</td>
+                    <td>Value 10</td>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                    <td>Value 5</td>
+                    <td>Value 6</td>
+                    <td>Value 7</td>
+                    <td>Value 8</td>
+                    <td>Value 9</td>
+                    <td>Value 10</td>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                    <td>Value 5</td>
+                    <td>Value 6</td>
+                    <td>Value 7</td>
+                    <td>Value 8</td>
+                    <td>Value 9</td>
+                    <td>Value 10</td>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                    <td>Value 5</td>
+                    <td>Value 6</td>
+                    <td>Value 7</td>
+                    <td>Value 8</td>
+                    <td>Value 9</td>
+                    <td>Value 10</td>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                    <td>Value 5</td>
+                    <td>Value 6</td>
+                    <td>Value 7</td>
+                    <td>Value 8</td>
+                    <td>Value 9</td>
+                    <td>Value 10</td>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                    <td>Value 5</td>
+                    <td>Value 6</td>
+                    <td>Value 7</td>
+                    <td>Value 8</td>
+                    <td>Value 9</td>
+                    <td>Value 10</td>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                    <td>Value 5</td>
+                    <td>Value 6</td>
+                    <td>Value 7</td>
+                    <td>Value 8</td>
+                    <td>Value 9</td>
+                    <td>Value 10</td>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                    <td>Value 5</td>
+                    <td>Value 6</td>
+                    <td>Value 7</td>
+                    <td>Value 8</td>
+                    <td>Value 9</td>
+                    <td>Value 10</td>
+                </tr>
+                <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+                    <tr>
+                        <td>Value 1</td>
+                        <td>Value 2</td>
+                        <td>Value 3</td>
+                        <td>Value 4</td>
+                        <td>Value 5</td>
+                        <td>Value 6</td>
+                        <td>Value 7</td>
+                        <td>Value 8</td>
+                        <td>Value 9</td>
+                        <td>Value 10</td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="plugin.js"></script>
+    <script>
+        var dankTable = $('#table-container > table').DankTable({
+            fixHeader: true,
+            usePercentageUnits: false,
+            defaultWidth: 100
+        })
+        dankTable.freeze(2);
+    </script>
+</body>
+</html>
